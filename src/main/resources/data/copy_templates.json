@@ -1,0 +1,54 @@
+{
+  "templates": [
+    {
+      "type": "new_user",
+      "name": "新人欢迎",
+      "tone": "热情友好，突出性价比和入门引导",
+      "templates": [
+        "欢迎来到优选商城！{product_name}，{feature}，新人专享价仅需{price}元，开启您的品质生活～",
+        "初次见面，推荐这款{product_name}，{feature}，{price}元超高性价比入门之选！",
+        "新人福利！{product_name}限时特惠，{feature}，到手仅{price}元，快来体验吧！"
+      ]
+    },
+    {
+      "type": "high_value",
+      "name": "品质尊享",
+      "tone": "高端大气，突出品质和品味",
+      "templates": [
+        "{brand}匠心之作{product_name}，{feature}，{price}元彰显非凡品味",
+        "为您甄选{product_name}，{feature}，品质生活从这里开始",
+        "{product_name}——{brand}旗舰典范，{feature}，只为追求卓越的您"
+      ]
+    },
+    {
+      "type": "price_sensitive",
+      "name": "性价比推荐",
+      "tone": "突出实惠和促销紧迫感",
+      "templates": [
+        "限时推荐！{product_name}，{feature}，超高性价比仅需{price}元！",
+        "大家都在买的{product_name}，{feature}，{price}元好物不容错过！",
+        "划算之选——{product_name}，{feature}，只需{price}元带回家！"
+      ]
+    },
+    {
+      "type": "active",
+      "name": "活跃用户",
+      "tone": "突出商品亮点和使用场景",
+      "templates": [
+        "根据您的兴趣推荐{product_name}，{feature}，{price}元，满足您的{n_category}需求",
+        "您可能喜欢：{product_name}，{feature}，达人都在用的{n_category}好物",
+        "热度飙升的{product_name}，{feature}，{price}元解锁{n_category}新体验"
+      ]
+    },
+    {
+      "type": "churn_risk",
+      "name": "召回话术",
+      "tone": "专属感、优惠力度、限时紧迫",
+      "templates": [
+        "专属好礼！为您保留的{product_name}，{feature}，今日下单立享优惠价{price}元",
+        "好久不见！{product_name}限时特价{price}元，{feature}，仅此一天！",
+        "老友专属：{product_name}直降优惠，{feature}，{price}元，错过不再有！"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+[
+  {"productId": "P001", "reviews": [
+    {"reviewId": "R00101", "productId": "P001", "userId": "U002", "rating": 5.0, "content": "A18 Pro芯片性能太强了，日常使用完全感受不到卡顿，拍照效果惊艳", "createdAt": "2026-04-15T10:00:00"},
+    {"reviewId": "R00102", "productId": "P001", "userId": "U014", "rating": 4.5, "content": "钛金属边框手感很好，续航一天半没问题，就是价格有点贵", "createdAt": "2026-04-10T14:30:00"},
+    {"reviewId": "R00103", "productId": "P001", "userId": "U006", "rating": 5.0, "content": "从安卓换过来的，iOS生态确实好用，Apple Intelligence功能很实用", "createdAt": "2026-03-20T09:00:00"},
+    {"reviewId": "R00104", "productId": "P001", "userId": "U007", "rating": 4.0, "content": "整体不错但充电速度还是不如安卓旗舰，希望下一代改进", "createdAt": "2026-03-15T16:00:00"},
+    {"reviewId": "R00105", "productId": "P001", "userId": "U011", "rating": 5.0, "content": "拍照画质顶级，视频录制也是一流水平，值这个价", "createdAt": "2026-02-28T11:00:00"}
+  ]},
+  {"productId": "P002", "reviews": [
+    {"reviewId": "R00201", "productId": "P002", "userId": "U015", "rating": 5.0, "content": "S Pen体验无敌，200MP拍照细节满满，屏幕观感震撼", "createdAt": "2026-04-01T10:00:00"},
+    {"reviewId": "R00202", "productId": "P002", "userId": "U004", "rating": 4.5, "content": "钛灰色质感很好，Galaxy AI翻译功能出差时特别实用", "createdAt": "2026-03-25T14:00:00"},
+    {"reviewId": "R00203", "productId": "P002", "userId": "U009", "rating": 4.0, "content": "系统流畅度不如iOS，但自定义程度高，适合爱折腾的用户", "createdAt": "2026-03-15T11:30:00"},
+    {"reviewId": "R00204", "productId": "P002", "userId": "U013", "rating": 5.0, "content": "大屏看视频和办公都特别爽，分屏多任务效率极高", "createdAt": "2026-03-10T09:00:00"}
+  ]},
+  {"productId": "P003", "reviews": [
+    {"reviewId": "R00301", "productId": "P003", "userId": "U001", "rating": 5.0, "content": "降噪效果比上一代更强，音质也有明显提升，佩戴舒适", "createdAt": "2026-04-20T18:00:00"},
+    {"reviewId": "R00302", "productId": "P003", "userId": "U002", "rating": 4.5, "content": "空间音频体验很棒，看电影像在影院，通透模式很自然", "createdAt": "2026-04-15T12:00:00"},
+    {"reviewId": "R00303", "productId": "P003", "userId": "U006", "rating": 4.0, "content": "音质不错但价格偏高，安卓用户体验不如iPhone用户完整", "createdAt": "2026-04-10T09:30:00"},
+    {"reviewId": "R00304", "productId": "P003", "userId": "U010", "rating": 5.0, "content": "自适应降噪很智能，地铁上通话对方也听得很清楚", "createdAt": "2026-04-05T16:00:00"},
+    {"reviewId": "R00305", "productId": "P003", "userId": "U018", "rating": 4.5, "content": "续航比AirPods Pro 2多了2小时，USB-C充电终于统一了", "createdAt": "2026-03-30T11:00:00"}
+  ]},
+  {"productId": "P004", "reviews": [
+    {"reviewId": "R00401", "productId": "P004", "userId": "U010", "rating": 5.0, "content": "降噪能力行业顶级，音质比Bose更均衡，LDAC连接稳定", "createdAt": "2026-04-01T15:00:00"},
+    {"reviewId": "R00402", "productId": "P004", "userId": "U008", "rating": 4.5, "content": "40小时续航是真的强，出差一周不用充电", "createdAt": "2026-03-20T10:00:00"},
+    {"reviewId": "R00403", "productId": "P004", "userId": "U003", "rating": 4.0, "content": "音质没话说但夏天戴头戴式确实有点热", "createdAt": "2026-03-10T14:00:00"},
+    {"reviewId": "R00404", "productId": "P004", "userId": "U012", "rating": 5.0, "content": "降噪开启后办公室瞬间安静，专注力提升不少", "createdAt": "2026-03-05T09:00:00"}
+  ]},
+  {"productId": "P005", "reviews": [
+    {"reviewId": "R00501", "productId": "P005", "userId": "U002", "rating": 5.0, "content": "M4 Pro编译代码比M3快了40%，XDR屏幕看代码眼睛不累", "createdAt": "2026-04-10T14:00:00"},
+    {"reviewId": "R00502", "productId": "P005", "userId": "U007", "rating": 5.0, "content": "32GB内存跑多个虚拟机都很流畅，续航两整天办公", "createdAt": "2026-04-05T10:30:00"},
+    {"reviewId": "R00503", "productId": "P005", "userId": "U006", "rating": 4.5, "content": "性能没话说但重量还是有点大，经常出差的话建议Air", "createdAt": "2026-03-25T16:00:00"},
+    {"reviewId": "R00504", "productId": "P005", "userId": "U011", "rating": 5.0, "content": "做视频剪辑渲染速度飞快，这块屏幕色彩太准了", "createdAt": "2026-03-15T11:00:00"}
+  ]},
+  {"productId": "P006", "reviews": [
+    {"reviewId": "R00601", "productId": "P006", "userId": "U004", "rating": 5.0, "content": "1.1kg的14寸本简直不可思议，键盘手感依旧ThinkPad水准", "createdAt": "2026-03-20T10:00:00"},
+    {"reviewId": "R00602", "productId": "P006", "userId": "U013", "rating": 4.5, "content": "OLED屏幕细腻到每个像素，接口齐全不用带转接头", "createdAt": "2026-03-10T14:00:00"},
+    {"reviewId": "R00603", "productId": "P006", "userId": "U002", "rating": 4.0, "content": "性能足够办公用，但玩游戏就别想了，商务本定位明确", "createdAt": "2026-03-05T09:00:00"}
+  ]},
+  {"productId": "P007", "reviews": [
+    {"reviewId": "R00701", "productId": "P007", "userId": "U009", "rating": 5.0, "content": "5000元以内最强手机，120W充电15分钟满血复活", "createdAt": "2026-04-15T16:00:00"},
+    {"reviewId": "R00702", "productId": "P007", "userId": "U003", "rating": 4.5, "content": "徕卡调色拍照很好看，系统流畅度比上一代提升明显", "createdAt": "2026-04-01T12:00:00"},
+    {"reviewId": "R00703", "productId": "P007", "userId": "U020", "rating": 4.0, "content": "性价比确实高，但塑料感还是有的，毕竟价格在那", "createdAt": "2026-03-20T09:30:00"},
+    {"reviewId": "R00704", "productId": "P007", "userId": "U005", "rating": 4.5, "content": "澎湃OS 3.0流畅度接近iOS了，HyperCharge充电速度惊人", "createdAt": "2026-03-15T14:00:00"}
+  ]},
+  {"productId": "P008", "reviews": [
+    {"reviewId": "R00801", "productId": "P008", "userId": "U017", "rating": 4.5, "content": "哈苏人像模式拍女朋友简直大片，双潜望长焦远近都能拍", "createdAt": "2026-04-10T11:00:00"},
+    {"reviewId": "R00802", "productId": "P008", "userId": "U005", "rating": 4.0, "content": "外观设计很漂亮大漠银月配色绝了，系统还有一些小bug", "createdAt": "2026-04-05T15:00:00"},
+    {"reviewId": "R00803", "productId": "P008", "userId": "U012", "rating": 4.5, "content": "天玑9400性能不输骁龙，ColorOS流畅好用", "createdAt": "2026-03-25T10:00:00"}
+  ]},
+  {"productId": "P009", "reviews": [
+    {"reviewId": "R00901", "productId": "P009", "userId": "U020", "rating": 4.5, "content": "6000mAh电池两天不充电太爽了，蔡司长焦10倍变焦都清晰", "createdAt": "2026-04-20T14:00:00"},
+    {"reviewId": "R00902", "productId": "P009", "userId": "U003", "rating": 4.0, "content": "续航确实强但OriginOS还需要时间适应", "createdAt": "2026-04-10T09:00:00"},
+    {"reviewId": "R00903", "productId": "P009", "userId": "U008", "rating": 4.5, "content": "蔡司镀膜抗眩光效果一流，夜景纯净度高", "createdAt": "2026-04-01T16:30:00"}
+  ]},
+  {"productId": "P010", "reviews": [
+    {"reviewId": "R01001", "productId": "P010", "userId": "U004", "rating": 5.0, "content": "卫星通信功能在户外爬山时给了满满安全感，麒麟芯片回归！", "createdAt": "2026-04-15T10:00:00"},
+    {"reviewId": "R01002", "productId": "P010", "userId": "U007", "rating": 4.5, "content": "HarmonyOS NEXT生态体验统一，多设备协同远超安卓", "createdAt": "2026-04-10T14:00:00"},
+    {"reviewId": "R01003", "productId": "P010", "userId": "U001", "rating": 4.0, "content": "卫星通信很新颖但日常使用频率低，系统还有一些兼容问题", "createdAt": "2026-04-05T11:00:00"},
+    {"reviewId": "R01004", "productId": "P010", "userId": "U015", "rating": 4.5, "content": "昆仑玻璃真的耐摔，裸机用了三个月没贴膜屏幕完好", "createdAt": "2026-03-30T09:00:00"}
+  ]},
+  {"productId": "P011", "reviews": [
+    {"reviewId": "R01101", "productId": "P011", "userId": "U010", "rating": 4.5, "content": "Bose的舒适度无敌，戴一天都不会累，降噪也很强", "createdAt": "2026-04-01T14:00:00"},
+    {"reviewId": "R01102", "productId": "P011", "userId": "U001", "rating": 4.0, "content": "音质偏暖很耐听，但价格比Sony还贵有点犹豫", "createdAt": "2026-03-25T10:00:00"}
+  ]},
+  {"productId": "P012", "reviews": [
+    {"reviewId": "R01201", "productId": "P012", "userId": "U008", "rating": 4.5, "content": "华为手机用户无脑入，多设备流转很方便", "createdAt": "2026-04-15T18:00:00"},
+    {"reviewId": "R01202", "productId": "P012", "userId": "U001", "rating": 4.0, "content": "降噪不错音质中规中矩，性价比不如小米", "createdAt": "2026-04-01T12:00:00"},
+    {"reviewId": "R01203", "productId": "P012", "userId": "U018", "rating": 4.5, "content": "高解析音频模式下细节丰富，佩戴也舒适", "createdAt": "2026-03-20T09:00:00"}
+  ]},
+  {"productId": "P013", "reviews": [
+    {"reviewId": "R01301", "productId": "P013", "userId": "U003", "rating": 4.5, "content": "700块不到的Hi-Res耳机，性价比无敌，降噪也够用", "createdAt": "2026-04-20T20:00:00"},
+    {"reviewId": "R01302", "productId": "P013", "userId": "U001", "rating": 4.0, "content": "音质超出预期但降噪跟索尼还有差距", "createdAt": "2026-04-10T15:00:00"},
+    {"reviewId": "R01303", "productId": "P013", "userId": "U008", "rating": 4.0, "content": "独立空间音频效果不错，但开启后续航会大幅下降", "createdAt": "2026-04-05T10:30:00"},
+    {"reviewId": "R01304", "productId": "P013", "userId": "U016", "rating": 4.5, "content": "延迟很低打游戏没问题，充电10分钟听3小时", "createdAt": "2026-03-30T14:00:00"}
+  ]},
+  {"productId": "P014", "reviews": [
+    {"reviewId": "R01401", "productId": "P014", "userId": "U006", "rating": 5.0, "content": "画画的体验太棒了，Apple Pencil Pro的触觉反馈很真实", "createdAt": "2026-04-10T15:00:00"},
+    {"reviewId": "R01402", "productId": "P014", "userId": "U014", "rating": 4.5, "content": "屏幕素质顶级看HDR视频震撼，就是价格不便宜", "createdAt": "2026-04-01T10:00:00"}
+  ]},
+  {"productId": "P015", "reviews": [
+    {"reviewId": "R01501", "productId": "P015", "userId": "U007", "rating": 4.5, "content": "17寸4K触控屏做设计太爽了，色彩准确度很高", "createdAt": "2026-03-20T14:00:00"},
+    {"reviewId": "R01502", "productId": "P015", "userId": "U002", "rating": 4.0, "content": "配置够强但散热声音有点大，满载时风扇噪音明显", "createdAt": "2026-03-10T09:00:00"}
+  ]},
+  {"productId": "P016", "reviews": [
+    {"reviewId": "R01601", "productId": "P016", "userId": "U015", "rating": 5.0, "content": "240Hz OLED玩游戏丝滑到不行，轻薄机身塞进RTX4070太强了", "createdAt": "2026-04-01T16:00:00"},
+    {"reviewId": "R01602", "productId": "P016", "userId": "U002", "rating": 4.0, "content": "性能释放不错但键盘温度有点高，建议外接键盘", "createdAt": "2026-03-20T11:00:00"},
+    {"reviewId": "R01603", "productId": "P016", "userId": "U009", "rating": 4.5, "content": "续航比想象中好，日常办公5小时没问题", "createdAt": "2026-03-10T14:00:00"}
+  ]},
+  {"productId": "P017", "reviews": [
+    {"reviewId": "R01701", "productId": "P017", "userId": "U009", "rating": 5.0, "content": "8K输出接大电视画面精细到毛发，加载速度秒进游戏", "createdAt": "2026-05-01T20:00:00"},
+    {"reviewId": "R01702", "productId": "P017", "userId": "U015", "rating": 5.0, "content": "光线追踪3.0画质质变，DualSense 2手柄沉浸感拉满", "createdAt": "2026-04-25T18:00:00"},
+    {"reviewId": "R01703", "productId": "P017", "userId": "U005", "rating": 4.5, "content": "终于支持向下兼容PS5游戏了，首发游戏阵容也不错", "createdAt": "2026-04-20T12:00:00"}
+  ]},
+  {"productId": "P018", "reviews": [
+    {"reviewId": "R01801", "productId": "P018", "userId": "U005", "rating": 5.0, "content": "新Joy-Con手感大幅提升，4K底座模式画面终于不糊了", "createdAt": "2026-05-05T10:00:00"},
+    {"reviewId": "R01802", "productId": "P018", "userId": "U016", "rating": 4.5, "content": "塞尔达新作同捆版入手，掌机模式60帧稳如老狗", "createdAt": "2026-04-30T14:00:00"}
+  ]},
+  {"productId": "P019", "reviews": [
+    {"reviewId": "R01901", "productId": "P019", "userId": "U007", "rating": 4.5, "content": "激光探测微尘功能很实用，能看到平时肉眼看不到的灰尘", "createdAt": "2026-04-20T10:00:00"},
+    {"reviewId": "R01902", "productId": "P019", "userId": "U011", "rating": 5.0, "content": "吸力强劲而且噪音控制得很好，一分价钱一分货", "createdAt": "2026-04-10T14:00:00"},
+    {"reviewId": "R01903", "productId": "P019", "userId": "U019", "rating": 4.0, "content": "续航60分钟够打扫全屋了但价格确实偏高", "createdAt": "2026-03-25T09:00:00"}
+  ]},
+  {"productId": "P020", "reviews": [
+    {"reviewId": "R02001", "productId": "P020", "userId": "U009", "rating": 5.0, "content": "热水洗拖布比冷水干净多了，AI障碍识别基本不撞东西", "createdAt": "2026-04-25T14:00:00"},
+    {"reviewId": "R02002", "productId": "P020", "userId": "U004", "rating": 4.5, "content": "7000Pa吸力地毯上的猫毛都能吸干净，自动集尘一个月倒一次", "createdAt": "2026-04-15T10:00:00"},
+    {"reviewId": "R02003", "productId": "P020", "userId": "U017", "rating": 4.0, "content": "整体不错但过门槛能力一般，2cm以上门槛会卡住", "createdAt": "2026-04-05T16:00:00"}
+  ]},
+  {"productId": "P021", "reviews": [
+    {"reviewId": "R02101", "productId": "P021", "userId": "U011", "rating": 4.5, "content": "冬天暖风夏天凉风，一年四季都能用，PM2.5数值实时可见", "createdAt": "2026-04-01T10:00:00"},
+    {"reviewId": "R02102", "productId": "P021", "userId": "U007", "rating": 4.0, "content": "净化效果确实好但滤芯更换成本不低", "createdAt": "2026-03-20T14:00:00"}
+  ]},
+  {"productId": "P022", "reviews": [
+    {"reviewId": "R02201", "productId": "P022", "userId": "U009", "rating": 5.0, "content": "85英寸Mini LED看电影太震撼了，1440分区控光黑位极佳", "createdAt": "2026-04-20T19:00:00"},
+    {"reviewId": "R02202", "productId": "P022", "userId": "U004", "rating": 4.5, "content": "240Hz接PS6玩游戏丝滑，杜比全景声不用额外买音响了", "createdAt": "2026-04-10T15:00:00"},
+    {"reviewId": "R02203", "productId": "P022", "userId": "U015", "rating": 4.0, "content": "系统广告有点多需要手动关闭，画质本身是顶级的", "createdAt": "2026-04-01T10:00:00"}
+  ]},
+  {"productId": "P023", "reviews": [
+    {"reviewId": "R02301", "productId": "P023", "userId": "U009", "rating": 4.5, "content": "500L大容量一家四口够用，风冷无霜不用手动除霜了", "createdAt": "2026-04-15T11:00:00"},
+    {"reviewId": "R02302", "productId": "P023", "userId": "U019", "rating": 4.0, "content": "智能温控精准但App连接偶尔不稳定", "createdAt": "2026-04-01T09:00:00"}
+  ]},
+  {"productId": "P024", "reviews": [
+    {"reviewId": "R02401", "productId": "P024", "userId": "U009", "rating": 4.5, "content": "新一级能效电费省了不少，自清洁功能免去了拆洗的麻烦", "createdAt": "2026-04-20T14:00:00"},
+    {"reviewId": "R02402", "productId": "P024", "userId": "U004", "rating": 4.0, "content": "制冷制热都很快，WiFi控制在到家前就能开空调", "createdAt": "2026-04-10T10:00:00"},
+    {"reviewId": "R02403", "productId": "P024", "userId": "U017", "rating": 4.0, "content": "静音模式确实安静但风力也相应变小", "createdAt": "2026-04-01T15:00:00"}
+  ]},
+  {"productId": "P025", "reviews": [
+    {"reviewId": "R02501", "productId": "P025", "userId": "U002", "rating": 5.0, "content": "2000nit亮度户外阳光下也看得清清楚楚，潜水功能太酷了", "createdAt": "2026-04-15T10:00:00"},
+    {"reviewId": "R02502", "productId": "P025", "userId": "U006", "rating": 5.0, "content": "双频GPS定位精准度堪比专业户外设备，续航3天无压力", "createdAt": "2026-04-01T14:00:00"},
+    {"reviewId": "R02503", "productId": "P025", "userId": "U007", "rating": 4.5, "content": "49mm对我手腕来说有点大，希望出个42mm版本", "createdAt": "2026-03-20T09:00:00"}
+  ]},
+  {"productId": "P026", "reviews": [
+    {"reviewId": "R02601", "productId": "P026", "userId": "U004", "rating": 4.5, "content": "14天续航秒杀Apple Watch，心电图分析很专业", "createdAt": "2026-04-10T10:00:00"},
+    {"reviewId": "R02602", "productId": "P026", "userId": "U018", "rating": 4.5, "content": "蓝宝石玻璃用了一个月零划痕，钛灰色表壳商务感满满", "createdAt": "2026-04-01T11:00:00"}
+  ]},
+  {"productId": "P027", "reviews": [
+    {"reviewId": "R02701", "productId": "P027", "userId": "U003", "rating": 4.5, "content": "399元能买到AMOLED屏+150+运动模式，无敌了", "createdAt": "2026-04-25T20:00:00"},
+    {"reviewId": "R02702", "productId": "P027", "userId": "U005", "rating": 4.0, "content": "NFC刷公交地铁很方便，睡眠监测数据也挺准", "createdAt": "2026-04-15T14:00:00"},
+    {"reviewId": "R02703", "productId": "P027", "userId": "U016", "rating": 4.5, "content": "续航14天真的做到了，屏幕比上一代大了一圈观感更好", "createdAt": "2026-04-10T09:00:00"}
+  ]},
+  {"productId": "P028", "reviews": [
+    {"reviewId": "R02801", "productId": "P028", "userId": "U001", "rating": 5.0, "content": "200W同时充笔记本+手机+耳机+手表，出差一个搞定全部", "createdAt": "2026-03-20T14:00:00"},
+    {"reviewId": "R02802", "productId": "P028", "userId": "U009", "rating": 4.5, "content": "GaN技术体积控制得很好，智能功率分配很不错", "createdAt": "2026-03-10T10:00:00"},
+    {"reviewId": "R02803", "productId": "P028", "userId": "U020", "rating": 4.5, "content": "6口设计太实用了，桌面整洁多了", "createdAt": "2026-03-01T16:00:00"}
+  ]},
+  {"productId": "P029", "reviews": [
+    {"reviewId": "R02901", "productId": "P029", "userId": "U002", "rating": 5.0, "content": "2000MB/s传4K视频素材几秒搞定，IP65防水户外拍摄放心用", "createdAt": "2026-03-05T10:00:00"},
+    {"reviewId": "R02902", "productId": "P029", "userId": "U013", "rating": 4.5, "content": "4TB容量够存一年的素材了，三防能力确实可靠", "createdAt": "2026-02-20T14:00:00"}
+  ]},
+  {"productId": "P030", "reviews": [
+    {"reviewId": "R03001", "productId": "P030", "userId": "U001", "rating": 5.0, "content": "透明设计太酷了可以看到内部元件，65W快充手机半小时80%", "createdAt": "2026-04-10T20:00:00"},
+    {"reviewId": "R03002", "productId": "P030", "userId": "U003", "rating": 4.0, "content": "好看是真好看但透明壳容易划伤，建议戴保护套", "createdAt": "2026-04-01T12:00:00"},
+    {"reviewId": "R03003", "productId": "P030", "userId": "U016", "rating": 4.5, "content": "20000mAh容量飞机上也能带，透明探索版颜值天花板", "createdAt": "2026-03-25T09:00:00"}
+  ]},
+  {"productId": "P031", "reviews": [
+    {"reviewId": "R03101", "productId": "P031", "userId": "U013", "rating": 4.5, "content": "300PPI文字锐利如纸书，AI摘要功能读论文效率翻倍", "createdAt": "2026-05-01T10:00:00"},
+    {"reviewId": "R03102", "productId": "P031", "userId": "U018", "rating": 4.0, "content": "手写体验很好但应用生态还是不够丰富", "createdAt": "2026-04-20T09:00:00"}
+  ]}
+]

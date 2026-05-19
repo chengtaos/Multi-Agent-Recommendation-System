@@ -1,0 +1,22 @@
+[
+  {"userId": "U001", "name": "张三", "age": 28, "gender": "male", "city": "北京", "memberLevel": "gold"},
+  {"userId": "U002", "name": "李四", "age": 35, "gender": "male", "city": "上海", "memberLevel": "platinum"},
+  {"userId": "U003", "name": "王五", "age": 22, "gender": "female", "city": "广州", "memberLevel": "silver"},
+  {"userId": "U004", "name": "赵六", "age": 42, "gender": "male", "city": "深圳", "memberLevel": "platinum"},
+  {"userId": "U005", "name": "孙七", "age": 19, "gender": "female", "city": "成都", "memberLevel": "new"},
+  {"userId": "U006", "name": "周八", "age": 31, "gender": "female", "city": "杭州", "memberLevel": "gold"},
+  {"userId": "U007", "name": "吴九", "age": 45, "gender": "male", "city": "南京", "memberLevel": "diamond"},
+  {"userId": "U008", "name": "郑十", "age": 26, "gender": "female", "city": "武汉", "memberLevel": "silver"},
+  {"userId": "U009", "name": "冯十一", "age": 38, "gender": "male", "city": "西安", "memberLevel": "gold"},
+  {"userId": "U010", "name": "陈十二", "age": 29, "gender": "female", "city": "重庆", "memberLevel": "gold"},
+  {"userId": "U011", "name": "楚十三", "age": 52, "gender": "male", "city": "北京", "memberLevel": "diamond"},
+  {"userId": "U012", "name": "魏十四", "age": 24, "gender": "female", "city": "上海", "memberLevel": "new"},
+  {"userId": "U013", "name": "蒋十五", "age": 33, "gender": "male", "city": "广州", "memberLevel": "silver"},
+  {"userId": "U014", "name": "沈十六", "age": 27, "gender": "female", "city": "深圳", "memberLevel": "gold"},
+  {"userId": "U015", "name": "韩十七", "age": 40, "gender": "male", "city": "成都", "memberLevel": "platinum"},
+  {"userId": "U016", "name": "杨十八", "age": 21, "gender": "female", "city": "杭州", "memberLevel": "new"},
+  {"userId": "U017", "name": "朱十九", "age": 36, "gender": "male", "city": "武汉", "memberLevel": "silver"},
+  {"userId": "U018", "name": "秦二十", "age": 30, "gender": "female", "city": "南京", "memberLevel": "gold"},
+  {"userId": "U019", "name": "许二一", "age": 48, "gender": "male", "city": "西安", "memberLevel": "diamond"},
+  {"userId": "U020", "name": "何二二", "age": 25, "gender": "female", "city": "重庆", "memberLevel": "silver"}
+]

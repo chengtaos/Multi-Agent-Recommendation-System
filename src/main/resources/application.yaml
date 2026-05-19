@@ -1,3 +1,47 @@
 spring:
   application:
     name: multi-agent-recommendation-system
+  profiles:
+    active: mock
+
+server:
+  port: 8081
+
+# Agent 线程池配置
+agent:
+  thread-pool:
+    core-size: 6
+    max-size: 6
+  timeout:
+    default-seconds: 10
+  retry:
+    max-retries: 3
+    initial-backoff-ms: 500
+
+# A/B 实验配置
+ab-test:
+  experiment-id: rec_strategy
+  control-weight: 50
+  treatment-llm-weight: 50
+
+# 向量检索配置
+vector:
+  top-k: 20
+
+# OpenAI 配置（openai profile 时启用）
+---
+spring:
+  config:
+    activate:
+      on-profile: openai
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY:sk-dummy}
+      base-url: ${OPENAI_BASE_URL:https://api.openai.com}
+      chat:
+        options:
+          model: gpt-4o-mini
+          temperature: 0.7
+      embedding:
+        options:
+          model: text-embedding-3-small
