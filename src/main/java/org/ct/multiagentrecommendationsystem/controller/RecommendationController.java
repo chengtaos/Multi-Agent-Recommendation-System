@@ -1,4 +1,4 @@
-package org.ct.multiagentrecommendationsystem.config;
+package org.ct.multiagentrecommendationsystem.controller;
 
 import org.ct.multiagentrecommendationsystem.agent.BaseAgent;
 import org.ct.multiagentrecommendationsystem.model.*;
