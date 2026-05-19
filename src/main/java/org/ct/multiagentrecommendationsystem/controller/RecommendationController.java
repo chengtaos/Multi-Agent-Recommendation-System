@@ -1,5 +1,6 @@
 package org.ct.multiagentrecommendationsystem.controller;
 
+import lombok.extern.slf4j.Slf4j;
 import org.ct.multiagentrecommendationsystem.agent.BaseAgent;
 import org.ct.multiagentrecommendationsystem.model.*;
 import org.ct.multiagentrecommendationsystem.orchestrator.SupervisorOrchestrator;
@@ -10,6 +11,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
+@Slf4j
 @RestController
 @RequestMapping("/api/v1")
 public class RecommendationController {
@@ -24,14 +26,28 @@ public class RecommendationController {
 
     @PostMapping("/recommend")
     public RecommendationResponse recommend(@RequestBody RecommendationRequest request) {
+        log.info("[API] 收到推荐请求: userId={}, scene={}, numItems={}",
+                request.getUserId(), request.getScene(), request.getNumItems());
+
         if (request.getNumItems() <= 0) {
             request.setNumItems(5);
         }
-        return orchestrator.recommend(request);
+
+        long start = System.currentTimeMillis();
+        RecommendationResponse response = orchestrator.recommend(request);
+        long elapsed = System.currentTimeMillis() - start;
+
+        log.info("[API] 推荐完成: userId={}, requestId={}, 推荐商品数={}, 总耗时={}ms",
+                response.getUserId(), response.getRequestId(),
+                response.getProducts() != null ? response.getProducts().size() : 0,
+                elapsed);
+
+        return response;
     }
 
     @GetMapping("/health")
     public HealthStatus health() {
+        log.debug("[API] 健康检查请求");
         Map<String, BaseAgent> agents = orchestrator.getAgents();
         Map<String, HealthStatus.AgentHealth> agentHealth = new LinkedHashMap<>();
         boolean allHealthy = true;
@@ -55,6 +71,7 @@ public class RecommendationController {
 
     @GetMapping("/experiments")
     public Map<String, Object> experiments() {
+        log.debug("[API] 实验配置查询");
         return Map.of("experiments", List.of(
                 ExperimentConfig.builder()
                         .id(abTestService.getExperimentId())

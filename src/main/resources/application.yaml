@@ -7,6 +7,17 @@ spring:
 server:
   port: 8081
 
+logging:
+  level:
+    root: INFO
+    org.ct.multiagentrecommendationsystem: INFO
+    org.ct.multiagentrecommendationsystem.controller: INFO
+    org.ct.multiagentrecommendationsystem.orchestrator: INFO
+    org.ct.multiagentrecommendationsystem.agent: INFO
+    org.ct.multiagentrecommendationsystem.config: INFO
+  pattern:
+    console: "%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"
+
 # Agent 线程池配置
 agent:
   thread-pool:
@@ -28,7 +39,8 @@ ab-test:
 vector:
   top-k: 20
 
-# OpenAI 配置（openai profile 时启用）
+# Chat + Embedding API 配置（openai profile 时启用）
+# 真实 API Key 请配置在 application-local.yaml（已 .gitignore）
 ---
 spring:
   config:
@@ -36,12 +48,15 @@ spring:
       on-profile: openai
   ai:
     openai:
-      api-key: ${OPENAI_API_KEY:sk-dummy}
-      base-url: ${OPENAI_BASE_URL:https://api.openai.com}
+      api-key: ${DEEPSEEK_API_KEY:}
+      base-url: ${DEEPSEEK_BASE_URL:https://api.deepseek.com}
       chat:
         options:
-          model: gpt-4o-mini
+          model: deepseek-chat
           temperature: 0.7
       embedding:
+        api-key: ${ZHIPU_API_KEY:}
+        base-url: ${ZHIPU_BASE_URL:https://open.bigmodel.cn/api/paas/v4}
+        path: ${ZHIPU_EMBEDDING_PATH:/embeddings}
         options:
-          model: text-embedding-3-small
+          model: embedding-2

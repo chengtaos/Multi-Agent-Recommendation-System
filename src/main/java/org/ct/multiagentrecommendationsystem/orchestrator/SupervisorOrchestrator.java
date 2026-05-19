@@ -110,9 +110,11 @@ public class SupervisorOrchestrator {
 
         // ========== 聚合：库存过滤 → TopN ==========
         @SuppressWarnings("unchecked")
-        List<Product> ranked = (List<Product>) rankingResult.getData().get("ranked");
+        List<Product> ranked = rankingResult.getData() != null ?
+                (List<Product>) rankingResult.getData().get("ranked") : null;
         @SuppressWarnings("unchecked")
-        List<String> available = (List<String>) inventoryResult.getData().get("availableProducts");
+        List<String> available = inventoryResult.getData() != null ?
+                (List<String>) inventoryResult.getData().get("availableProducts") : null;
 
         List<Product> finalProducts;
         if (ranked != null && available != null) {
@@ -142,13 +144,14 @@ public class SupervisorOrchestrator {
 
         // ========== 组装响应 ==========
         @SuppressWarnings("unchecked")
-        List<MarketingCopy> copies = (List<MarketingCopy>) copyResult.getData().get("marketingCopies");
+        List<MarketingCopy> copies = copyResult.getData() != null ?
+                (List<MarketingCopy>) copyResult.getData().get("marketingCopies") : null;
         @SuppressWarnings("unchecked")
-        Map<String, InventoryStatus> inventoryStatuses =
-                (Map<String, InventoryStatus>) inventoryResult.getData().get("inventoryStatuses");
+        Map<String, InventoryStatus> inventoryStatuses = inventoryResult.getData() != null ?
+                (Map<String, InventoryStatus>) inventoryResult.getData().get("inventoryStatuses") : null;
         @SuppressWarnings("unchecked")
-        Map<String, ReviewSummary> reviewSummaryMap =
-                (Map<String, ReviewSummary>) reviewResult.getData().get("reviewSummaryMap");
+        Map<String, ReviewSummary> reviewSummaryMap = reviewResult.getData() != null ?
+                (Map<String, ReviewSummary>) reviewResult.getData().get("reviewSummaryMap") : null;
 
         List<RecommendationResponse.ProductItem> productItems = new ArrayList<>();
         for (Product p : finalProducts) {

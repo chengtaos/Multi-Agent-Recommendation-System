@@ -25,12 +25,13 @@ public class MockLlmService implements LlmService {
 
     @Override
     public String chat(String systemPrompt, String userPrompt) {
-        if (userPrompt.contains("profile") || userPrompt.contains("RFM") || userPrompt.contains("segment")) {
+        // 注意：rank 判断必须在 profile 前面，因为 ranking prompt 中也包含 "profile" 文字
+        if (userPrompt.contains("rank") || userPrompt.contains("Rank")) {
+            return mockRanking(userPrompt);
+        } else if (userPrompt.contains("profile") || userPrompt.contains("RFM") || userPrompt.contains("segment")) {
             return mockProfileAnalysis(userPrompt);
         } else if (userPrompt.contains("review") || userPrompt.contains("sentiment") || userPrompt.contains("Reviews")) {
             return mockSentimentAnalysis(userPrompt);
-        } else if (userPrompt.contains("rank") || userPrompt.contains("Rank")) {
-            return mockRanking(userPrompt);
         } else if (userPrompt.contains("copy") || userPrompt.contains("Copy") || userPrompt.contains("marketing")) {
             return mockCopyGeneration(userPrompt);
         }
@@ -87,12 +88,26 @@ public class MockLlmService implements LlmService {
     }
 
     private String mockRanking(String prompt) {
+        // 从 prompt 中提取实际的商品 ID
+        List<String> productIds = new ArrayList<>();
+        java.util.regex.Matcher m = java.util.regex.Pattern.compile("ID:([A-Z0-9]+)").matcher(prompt);
+        while (m.find()) {
+            productIds.add(m.group(1));
+        }
+
+        if (productIds.isEmpty()) {
+            return "[]";
+        }
+
         StringBuilder sb = new StringBuilder("[");
         double score = 1.0;
-        for (int i = 0; i < 5; i++) {
-            if (i > 0) sb.append(",");
-            sb.append(String.format("{\"productId\":\"P%03d\",\"score\":%.2f}", RANDOM.nextInt(50) + 1, score));
+        int count = 0;
+        for (String pid : productIds) {
+            if (count > 0) sb.append(",");
+            sb.append(String.format("{\"productId\":\"%s\",\"score\":%.2f}", pid, score));
             score -= 0.1 + RANDOM.nextDouble() * 0.05;
+            if (score < 0.3) score = 0.3;
+            count++;
         }
         sb.append("]");
         return sb.toString();
